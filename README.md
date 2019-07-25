@@ -1,6 +1,6 @@
-# U-Net Segmentation for Liver Tumor by Pytorch
+# U-Net Segmentation for Medical Images by Pytorch
 
-The architecture was inspired by [U-Net: Convolutional Networks for Biomedical Image Segmentation](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/).
+This repository provides an extremely simple code for Image Segmentation by [U-Net](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) using PyTorch. [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) dataset is used for demonstration.
 
 ---
 
@@ -8,11 +8,11 @@ The architecture was inspired by [U-Net: Convolutional Networks for Biomedical I
 
 ### Data
 
-The original dataset is from [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) with no data preprocessing required once downloaded.
+Use original [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) with no data preprocessing required.
 
 
 ### Data Structure
-The original dataset contains **131 train** & **70 test** 3D CT images in **nii** format, where the 3D image size are 
+The original dataset contains **131 train** & **70 test** 3D CT images in **nii** format, where the 3D image size are (512, 512, 74\~987)
 
 
 ### Model
@@ -47,8 +47,14 @@ This example code runs with the following libraries:
 * Matplotlib, Numpy, Scikit-Learn, Scikit-Image
 
 ### Computational device:
-* >= 32Gb CPU memory
-* >= 1 GPU with 11Gb (GPU) memory
+* at least 32Gb CPU memory
+* at least 1 NVidia GPU with 11Gb (GPU) memory
+
+
+
+
+
+
 
 
 ### Run main.py
