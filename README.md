@@ -12,12 +12,12 @@ Use original [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.co
 
 
 ### Data Structure
-The original dataset contains **131 train** & **70 test** 3D CT images in **nii** format, where the 3D image size are (512, 512, 74\~987)
+The original dataset contains **131 train** & **70 test** 3D CT images in **.nii** format. The 3D image sizes are (512, 512, 74\~987)
 
 
 ### Model
 
-![img/u-net-architecture.png](img/u-net-architecture.png)
+![fig/unet.png](fig/unet.png)
 
 This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures.
 
