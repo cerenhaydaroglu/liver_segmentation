@@ -1,6 +1,6 @@
 # U-Net Segmentation for Medical Images by Pytorch
 
-This repository provides an **extremely simple code** <img src="./fig/guaranteed.jpg" width="150"> for Image Segmentation by [U-Net](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) using PyTorch. [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) dataset is used for demonstration.
+This repository provides an **extremely simple code** <img src="./fig/guaranteed.jpg" width="50"> for Image Segmentation by [U-Net](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) using PyTorch. [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) dataset is used for demonstration.
 
 ---
 
@@ -17,6 +17,7 @@ The original dataset contains **131 train** & **70 test** 3D CT images in **.nii
 
 ### Model
 
+<img src="./fig/unet.png" width="400">
 ![fig/unet.png](fig/unet.png)
 
 The U-Net is implemented by Pytorch for deep learning. It is easy to visualize the architechture and convenient for changing your own dataset.
