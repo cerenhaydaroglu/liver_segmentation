@@ -1,6 +1,6 @@
 # U-Net Segmentation for Medical Images by Pytorch
 
-This repository provides an **extremely simple code** <img src="./fig/guaranteed.jpg" width="50"> for Image Segmentation by [U-Net](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) using PyTorch. [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) dataset is used for demonstration.
+This repository provides an **extremely simple code** <img src="./fig/guaranteed.jpg" width="80"> for Image Segmentation by [U-Net](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) using PyTorch. [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) dataset is used for demonstration.
 
 ---
 
@@ -18,11 +18,10 @@ The original dataset contains **131 train** & **70 test** 3D CT images in **.nii
 ### Model
 
 <img src="./fig/unet.png" width="800">
-![fig/unet.png](fig/unet.png)
 
-The U-Net is implemented by Pytorch for deep learning. It is easy to visualize the architechture and convenient for changing your own dataset.
+The U-Net is implemented by Pytorch for deep learning. This code is easy to visualize the architechture and convenient for changing your own dataset.
 
-The inputs are grayscale CT images and output has 3 different classes in LiTS ("1": liver, "2": tumor, "0":anthing else)
+In this demonstration, LiTS has **grayscale inputs (CT images)** and **output (organ contours)** of 3 different classes: **liver, tumor, anthing else**
 
 ### Training
 
@@ -30,7 +29,7 @@ The model is trained for 5 epochs.
 
 After 5 epochs, calculated accuracy is about 0.97.
 
-Loss function for the training is basically just a binary crossentropy.
+Loss function is defined as the crossentropy.
 
 
 ---
@@ -52,15 +51,9 @@ This example code runs with the following libraries:
 
 
 
+### Run train_UNET.py
 
-
-
-
-
-### Run main.py
-
-You will see the predicted results of test image in data/membrane/test
-
+You will see the predicted results of test image in ....
 
 
 
