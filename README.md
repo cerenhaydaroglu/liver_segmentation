@@ -35,7 +35,7 @@ This example code runs with the following libraries:
 
 * Python 3.6  
 * [PyTorch](https://pytorch.org/) >= 1.0.1
-* [NiBabel (to read *.nii* files)](https://nipy.org/nibabel/)
+* [NiBabel](https://nipy.org/nibabel/) (to read *.nii* files)
 * Matplotlib, Numpy, Scikit-Learn, Scikit-Image
 
 
