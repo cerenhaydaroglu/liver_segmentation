@@ -1,6 +1,6 @@
 # U-Net Segmentation for Medical Images by Pytorch
 
-This repository provides an **extremely simple code** ![guaranteed](fig/guaranteed.jpg | width=100) for Image Segmentation by [U-Net](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) using PyTorch. [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) dataset is used for demonstration.
+This repository provides an **extremely simple code** <img src="./fig/guaranteed.jpg" width="150"> for Image Segmentation by [U-Net](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) using PyTorch. [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) dataset is used for demonstration.
 
 ---
 
@@ -8,21 +8,20 @@ This repository provides an **extremely simple code** ![guaranteed](fig/guarante
 
 ### Data
 
-Use open medical dataset [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) with no data preprocessing required.
+Use open medical dataset [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) with no preprocessing required.
 
 
 ### Data Structure
-The original dataset contains **131 train** & **70 test** 3D CT images in **.nii** format. The 3D image sizes are (512, 512, 74\~987)
+The original dataset contains **131 train** & **70 test** 3D CT images in **.nii** format. The 3D image sizes are (512, 512, 74\~987), where slice number varies.
 
 
 ### Model
 
 ![fig/unet.png](fig/unet.png)
 
-This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures.
+The U-Net is implemented by Pytorch for deep learning. It is easy to visualize the architechture and convenient for changing your own dataset.
 
-Output from the network is a 512*512 which represents mask that should be learned. Sigmoid activation function
-makes sure that mask pixels are in \[0, 1\] range.
+The inputs are grayscale CT images and output has 3 different classes in LiTS ("1": liver, "2": tumor, "0":anthing else)
 
 ### Training
 
