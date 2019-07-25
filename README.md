@@ -6,13 +6,10 @@ This repository provides an **extremely simple code** <img src="./fig/guaranteed
 
 ## Overview
 
-### Data
+### Data & Structure
+* Use open medical dataset [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) with no preprocessing required.
 
-Use open medical dataset [Liver Tumor Segmentation Challenge (LiTS)](https://competitions.codalab.org/competitions/17094) with no preprocessing required.
-
-
-### Data Structure
-The original dataset contains **131 train** & **70 test** 3D CT images in **.nii** format. The 3D image sizes are (512, 512, 74\~987), where slice number varies.
+* The original dataset contains **131 train** & **70 test** 3D CT images in **.nii** format. The 3D image sizes are (512, 512, 74\~987), where slice number varies.
 
 
 ### Model
@@ -25,11 +22,7 @@ In this demonstration, LiTS has **grayscale inputs (CT images)** and **output (o
 
 ### Training
 
-The model is trained for 5 epochs.
-
-After 5 epochs, calculated accuracy is about 0.97.
-
-Loss function is defined as the crossentropy.
+The model is trained for 5 epochs. After 5 epochs, calculated accuracy is about 0.97. Loss function is defined as the crossentropy.
 
 
 ---
@@ -40,15 +33,15 @@ Loss function is defined as the crossentropy.
 
 This example code runs with the following libraries:
 
-* Python 3.6
-* PyTorch >= 1.0.1
+* Python 3.6  
+* [PyTorch](https://pytorch.org/) >= 1.0.1
 * [NiBabel (to read *.nii* files)](https://nipy.org/nibabel/)
 * Matplotlib, Numpy, Scikit-Learn, Scikit-Image
+
 
 ### Computational device:
 * at least 32Gb CPU memory
 * at least 1 NVidia GPU with 11Gb (GPU) memory
-
 
 
 ### Run train_UNET.py
