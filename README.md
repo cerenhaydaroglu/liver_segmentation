@@ -17,7 +17,7 @@ The original dataset contains **131 train** & **70 test** 3D CT images in **.nii
 
 ### Model
 
-<img src="./fig/unet.png" width="400">
+<img src="./fig/unet.png" width="800">
 ![fig/unet.png](fig/unet.png)
 
 The U-Net is implemented by Pytorch for deep learning. It is easy to visualize the architechture and convenient for changing your own dataset.
