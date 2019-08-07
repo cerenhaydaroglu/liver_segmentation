@@ -14,7 +14,7 @@ This repository provides an **extremely simple code** <img src="./fig/guaranteed
 
 ### Model
 
-<img src="./fig/unet.png" width="800">
+<img src="./fig/U_NET.pdf" width="800">
 
 The U-Net is implemented by Pytorch for deep learning. This code is easy to visualize the architechture and convenient for changing your own dataset.
 
