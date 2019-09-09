@@ -54,9 +54,9 @@ You will see the predicted results of test image in ....
 
 Use the trained model to do segmentation on validation images, the result is statisfactory. Readers are encourage to play with the architectures with validation as a guide, and test their final model on the testing set.
 [fig/batch_1354_display.png](./fig/batch_1354_display.png)
-<img src="./fig/batch_1357_display.png" width="800">
-<img src="./fig/batch_1354_display.png" width="800">
-<img src="./fig/batch_338_display.png" width="800">
-<img src="./fig/batch_525_display.png" width="800">
-<img src="./fig/batch_893_display.png" width="800">
-<img src="./fig/batch_864_display.png" width="800">
+<img src="./fig/batch_1357_display.png" width="100">
+<img src="./fig/batch_1354_display.png" width="100">
+<img src="./fig/batch_338_display.png" width="100">
+<img src="./fig/batch_525_display.png" width="100">
+<img src="./fig/batch_893_display.png" width="100">
+<img src="./fig/batch_864_display.png" width="100">
