@@ -53,7 +53,7 @@ You will see the predicted results of test image in ....
 ### Results
 
 Use the trained model to do segmentation on test images, the result is statisfactory.
-[fig/batch_1354_display.png](fig/0test.png)
+[fig/batch_1354_display.png](./fig/batch_1354_display.png)
 
-[fig/batch_1357_display.png](fig/0label.png)
+[fig/batch_1357_display.png](./fig/batch_1357_display.png)
 
