@@ -53,7 +53,8 @@ You will see the predicted results of test image in ....
 ### Results
 
 Use the trained model to do segmentation on validation images, the result is statisfactory. Readers are encourage to play with the architectures with validation as a guide, and test their final model on the testing set.
-Here, we show some random examples from validation results of the trained model after 17 epochs
+Here, we show some random examples from validation results of the trained model after 17 epochs.
+
 <img src="./fig/batch_1357_display.png" width="100">
 <img src="./fig/batch_1354_display.png" width="100">
 <img src="./fig/batch_338_display.png" width="100">
